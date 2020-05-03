@@ -11,6 +11,9 @@ body{
     vertical-align: middle;
 }
 
+/* nav */
+
+/* nav end */
 
 .header {
     position: absolute;
@@ -38,11 +41,10 @@ body{
 
 
 .hero .container {
-    width: 400px;
-    height: 400px;
+    
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 70%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
@@ -215,8 +217,9 @@ body{
 
 @media screen and (max-width: 1080px){
    
-   .hero h1{
-       left: 8%;
+   .header{
+       left: 50%;
+       transform: translateX(-50%);
    }
 
    .wrapper{
@@ -238,6 +241,12 @@ body{
     
 }
 
+@media screen and (max-width: 850px){
+    .hero .container{
+        top: 85%;
+    }
+}
+
 @media screen and (max-width: 800px){
    .team{
        margin-top: 20px;
@@ -250,6 +259,18 @@ body{
     .gol{
         margin-top: 0px;
         margin-left: 50px;
+    }
+    .header{
+        font-size: 65px;
+    }
+    .hero .container{
+        top: 80%
+    }
+}
+
+@media screen and (max-width: 550px){
+    .header{
+        font-size: 60px;
     }
 }
 
@@ -290,5 +311,8 @@ body{
     }
     .team{
         margin-left: 5%;
+    }
+    .header{
+        font-size: 50px;
     }
 }
