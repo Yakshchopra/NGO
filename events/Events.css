@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.major-events h1
+{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 7.5vh;
+    padding: 3vh;
+    color: #3d3d3d;
+}
+
+.hero
+{
+    height: 50vh;
+    width: 100vw;
+    background-color: #707070;
+    background-image: linear-gradient(90deg, #707070 0%, #3d3c3c 100%);
+text-align: center;
+vertical-align: middle;
+color: #d9d9d9;
+padding: 10% 0;
+
+}
+.e-1 p
+{
+    width: 605px;
+    height: 605px;
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 26px;
+    text-align: left;
+    color: #707070;
+}
+.upcoming-events h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 7.5vh;
+    padding-bottom: 3vh;
+    color: #3d3d3d;
