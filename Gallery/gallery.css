@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Acumin";
+    src: url("fonts/Acumin-BdPro.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body{
+    height: 100%;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: "Acumin", sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+  
+.gallery-col{
+    margin-top: 3vh;
+    margin-bottom: 25px;
+}
+.gallery-col img{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+.gallery-col img:hover{
+    box-shadow: 0 7px 16px rgba(112, 112, 112,1); 
+}
+.hero 
+{
+    text-align: center;
+    vertical-align: middle;
+    height: 50vh;
+    width: 100vw;
+ background-color: #707070;
+    background-image: linear-gradient(90deg, #707070 0%, #3d3c3c 100%);
+    color: #d9d9d9;
+
+
+}
+.hero p
+{
+    text-align: center;
+    vertical-align: middle;
+
+font-size: 4.5vw;
+font-weight: 250;
+}
+.hero h1
+{
+    text-align: center;
+    vertical-align: middle;
+   font-weight: 300;
+font-size: 7.5vw;
+}
