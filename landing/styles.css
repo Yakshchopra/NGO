@@ -13,6 +13,8 @@ html{
     overflow: hidden;   
 }
 
+
+
 .hero-image{
     
     width: 100%;
@@ -141,6 +143,7 @@ nav ul {
 nav.black ul {
     background: #000;
 }
+
 
 nav ul li {
     display: inline-block;
@@ -280,6 +283,15 @@ nav ul li a {
     .cards .col-sm{
         padding: 10px;
     }
+
+}
+
+@media screen and (max-width: 1200px){
+    .header{
+
+        left: 25%;
+        
+    }
 }
 
 @media screen and (max-width: 1080px){
@@ -306,6 +318,12 @@ nav ul li a {
         margin-top: 20px;
     }
     
+}
+
+@media screen and (max-width: 870px){
+    .header{
+        font-size: 60px;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -339,6 +357,9 @@ nav ul li a {
 
 @media(max-width: 786px) {
 
+    .head .container{
+        top: 85%;
+    }
 
     .team{
         float: none;

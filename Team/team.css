@@ -33,20 +33,18 @@
     content: "";
   }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 25%;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  
-}
-.row h1
-{
-  font-size: 4.5vh;
-}
-.title
-{
-  font-size:3vh ;
+  i {
+    opacity: 0;
+    font-size: 18px;
+    color: #fff;
+    will-change: transform;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+ }
+  h2 {
+    pointer-events: none;
+ }
 
-}
+ 
