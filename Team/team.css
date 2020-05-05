@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  .hero 
+{
+    text-align: center;
+    vertical-align: middle;
+    height: 50vh;
+    width: 100vw;
+ background-color: #707070;
+    background-image: linear-gradient(90deg, #707070 0%, #3d3c3c 100%);
+    color: #d9d9d9;
+    padding-top: 0.75vh;
+    display: table-cell;
+
+}
+.heading {
+    margin: 20px;
+    overflow :hidden;
+    color: #707070;
+    text-align: left;
+    line-height: 1.6em;
+  }
+  
+  .heading:before {
+    display: block;
+    float: right;
+    margin-top: .8em; /* half the line-height */
+    border-top: 2px solid silver;
+    width: 50%;
+    content: "";
+  }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 25%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+}
+.row h1
+{
+  font-size: 4.5vh;
+}
+.title
+{
+  font-size:3vh ;
+
+}
