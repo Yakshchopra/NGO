@@ -17,9 +17,9 @@ html{
 }
 .logo img{
     display: block;
-    max-width: 10vh;
-    max-height: 10vh;
-}   
+    max-width: 6.5vh;
+    max-height: 6.5vh;
+}
 
 .head{
     height: 100vh;
