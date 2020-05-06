@@ -466,8 +466,9 @@ a:hover {
 
 @media screen and (max-width: 1080px){
    
+
+
    .header{
-       left: 50%;
        transform: translateX(-50%);
    }
 
