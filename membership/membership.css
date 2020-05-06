@@ -6,6 +6,7 @@
 
 
 
+
 .header{
     color: white;
     background-image: url(./Repeat\ Grid\ 1.png);
@@ -30,6 +31,16 @@
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+a {
+    transition: 0.21s ease-in all;
+}
+a:hover {
+    color: white !important;
+}
+
 
 
 
@@ -68,6 +79,19 @@ nav.black ul {
     background: #000;
 }
 
+.menu a:hover
+{
+    border-bottom: 2px solid #707070;
+    transition: ease 0.5s;
+}
+.menu a{
+    text-decoration:none ;
+}
+.menu a .active
+{
+    border-bottom: 2px solid #707070;
+}
+
 nav ul li {
     display: inline-block;
     padding: 16px 40px;;
@@ -91,6 +115,21 @@ nav ul li a {
     display: none;
 }
 
+.logo{
+  
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    font-size: 25;
+    display: inline-block;
+}
+.logo img{
+    display: block;
+    max-width: 6.5vh;
+    max-height: 6.5vh;
+}
 
 .form-1{
    margin-top: 6%;
