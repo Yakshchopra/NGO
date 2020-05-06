@@ -138,7 +138,18 @@ html{
     font-size: 20px;
     letter-spacing: 2px;
 }
-
+.menu a:hover
+{
+    border-bottom: 2px solid #707070;
+    transition: ease 0.3s;
+}
+.menu a{
+    text-decoration:none ;
+}
+.menu a .active
+{
+    border-bottom: 2px solid #707070;
+}
 nav {
     position: fixed;
     width: 100%;
@@ -358,7 +369,6 @@ nav ul li a {
 .copyright-text {
     margin: 0;
 }
-
 
 
 
