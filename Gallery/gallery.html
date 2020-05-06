@@ -5,47 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="gallery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
        <title>Gallery</title>
 </head>
 <body>
-    <div class="hero">
+    <!-- <div class="hero">
     <h1>
         Gallery
     </h1>
-    <p>Memories that last forever</p>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
-            </div>
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
-            </div>
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
-            </div>
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
-            </div>
-        </div>
+    
+    </div> -->
 
-        <div class="row">
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
+    <section class="animate">
+        <section class="header">
+            <nav data-aos="fade-down">
+                <div class="menu-icon">
+                   <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                   LOGO
+                </div>
+                <div class="menu">
+                   <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Events</a></li>
+                      <li><a href="#">Membership</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Contact</a></li>
+                   </ul>
+                </div>
+             </nav>
+    
+    
+             <div class="headline">
+                <h1 data-aos="zoom-out"  data-aos-easing="linear"
+                data-aos-duration="1500">Gallary</h1>
+             </div>
+            
+        </section>
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/00e98492-7319-4597-910b-b0c4cce420f5.png"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/2c2d953d-3a95-401f-9b03-a37e1aeeb2f1.png"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/4ce077aa-0e52-4e19-9da2-86d0e6a380d9.png"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/IMG_5737.png"></a>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
-            </div>
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
-            </div>
-            <div class="col-md-3 col-sm-6 gallery-col">
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGak61FUurirFteJMN79xviyCtb11NHUHxjgPA_X7HNC5oqsDm&s"></a>
+    
+            <div class="row" data-aos="flip-up">
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/g7.png"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/IMG_5739.png"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/g8.png"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 gallery-col" data-aos="flip-up">
+                    <a href="#"><img src="./res/IMG_5747.png"></a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <script>
+        $(document).ready(function() {
+   $(".menu-icon").on("click", function() {
+         $("nav ul").toggleClass("showing");
+       });
+   });
+
+// Scrolling Effect
+
+   $(window).on("scroll", function() {
+       if($(window).scrollTop()) {
+         $('nav').addClass('black');
+       }
+
+   else {
+         $('nav').removeClass('black');
+       }
+   })
+
+   AOS.init();
+
+  
+
+
+   </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
