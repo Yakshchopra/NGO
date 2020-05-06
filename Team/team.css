@@ -464,7 +464,7 @@ section .section-title {
     nav ul li {
           box-sizing: border-box;
           width: 100%;
-          padding: 24px;
+          
           text-align: center;
     }
 
