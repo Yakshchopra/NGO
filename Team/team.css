@@ -58,7 +58,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #707070;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -147,12 +147,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: ##707070 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #707070 !important;
 }
 
 .frontside .card .card-body img {
