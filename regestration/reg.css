@@ -1,0 +1,53 @@
+
+
+html{    background:url(./final.png) no-repeat;
+    background-size: cover;
+    height:100%;
+  }
+  
+  #feedback-page{
+      text-align:center;
+  }
+  
+  #form-main{
+      width:100%;
+      float:left;
+      padding-top:0px;
+  }
+
+  h2{
+      text-align: center;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 100;
+  }
+  
+  #form-div {
+      background-color:rgba(72,72,72,0.4);
+      padding-left:35px;
+      padding-right:35px;
+      padding-top:35px;
+      padding-bottom:50px;
+      width: 450px;
+      float: left;
+      left: 50%;
+      
+      position: absolute;
+    margin-top:30px;
+      margin-left: -260px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 580px) {
+      #form-div{
+          left: 3%;
+          margin-right: 3%;
+          width: 88%;
+          margin-left: 0;
+          padding-left: 3%;
+          padding-right: 3%;
+      }
+  }
