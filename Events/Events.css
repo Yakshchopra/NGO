@@ -200,12 +200,30 @@ display: table-cell;
     max-height: 50vh;
     padding-bottom: 10px;
 }
-.upcoming-events-content h4
+.upcoming-events-content h2
 { 
     text-align: center;
     font-weight: 300;
     font-size: 32px;
     padding-top: 10px;
+}
+.center
+{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70vw;
+    max-height: 60vh;
+    padding-bottom: 10px;
+  
+   
+}
+.upcoming-events-content h3
+{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px ;
 }
 .aim h1
 {
