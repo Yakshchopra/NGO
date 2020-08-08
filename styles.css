@@ -9,26 +9,7 @@
 html{
     scroll-behavior: smooth;
 }
-.announcement {
-    display: inline-block;
-    height: 100%;
-    text-align: center;
-    width: 100%;
-    background: black;
-    color: white;
-    margin: 0;
-    padding-top: 13px;
-    vertical-align: middle;
-    font-size: 1em;
-  }
-  
-  .announcement a { 
-    color: #ccc; 
-  }
-  
-  .announcement a:hover {
-    color: red;
-  }
+
 .logo{
   
     border-radius: 50%;
